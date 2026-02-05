@@ -1,23 +1,25 @@
 {
   "name": "@tanmay/react-notify",
   "version": "0.1.0",
-  "description": "Minimal notification system for React",
+  "description": "notification/toast system for React",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "mkdir -p dist && cp -r src/* dist/",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": ">=17",
+    "react-dom": ">=17"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmaycodess/-tanmay-react-notify_npm_package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanmaycodess/-tanmay-react-notify_npm_package/issues"
+  },
+  "homepage": "https://github.com/tanmaycodess/-tanmay-react-notify_npm_package#readme",
   "license": "MIT",
-  "keywords": [
-    "react",
-    "notification",
-    "toast"
-  ]
+  "keywords": ["react", "notification", "toast", "snackbar"]
 }
