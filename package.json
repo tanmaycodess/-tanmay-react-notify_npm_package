@@ -1,0 +1,23 @@
+{
+  "name": "@tanmay/react-notify",
+  "version": "0.1.0",
+  "description": "Minimal notification system for React",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "mkdir -p dist && cp -r src/* dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "notification",
+    "toast"
+  ]
+}
