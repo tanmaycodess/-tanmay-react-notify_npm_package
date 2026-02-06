@@ -1,5 +1,5 @@
 {
-  "name": "@tanmay/react-notify",
+  "name": "@tanmaycodess/react-notify",
   "version": "0.1.0",
   "description": "notification/toast system for React",
   "main": "dist/index.js",
