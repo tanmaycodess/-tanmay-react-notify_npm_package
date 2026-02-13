@@ -1,4 +1,4 @@
-# @tanmay/react-notify
+# @tanmaycodess/react-notify
 
 A lightweight, dependency-free notification/toast system for React.
 
@@ -37,7 +37,7 @@ npm install @tanmay/react-notify
 ### Wrap your app with `NotificationProvider`
 
 ```jsx
-import { NotificationProvider } from "@tanmay/react-notify";
+import { NotificationProvider } from "@tanmaycodess/react-notify"";
 import App from "./App";
 
 export default function Root() {
@@ -66,7 +66,7 @@ export default function Root() {
 ## Using Notifications
 
 ```jsx
-import { useNotification } from "@tanmay/react-notify";
+import { useNotification } from "@tanmaycodess/react-notify"";
 
 export default function Demo() {
   const { success, error, warning, violation, info } = useNotification();
@@ -212,7 +212,7 @@ promise(
 
 ```jsx
 import axios from "axios";
-import { useNotification } from "@tanmay/react-notify";
+import { useNotification } from "@tanmaycodess/react-notify"";
 
 export default function SaveButton() {
   const { promise } = useNotification();
